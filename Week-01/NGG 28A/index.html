@@ -24,29 +24,48 @@ video with controls, defined size and source (youtube-link)
 <html>
   <head>
     <title>My Page</title>
+    <style>
+      table, th, td {
+        border: 1px solid black;
+      }
+      </style>
+      <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Welcome to my Page</h1>
-    <img src="MyPortrait.jpg" width="400" />
-    <p>My Name is John Doe, I live in Switzerland and this is my website!</p>
+    <header>
+      <h2>My Page</h2>
+    </header>
+    <h1 style="text-align: center;">Welcome to my Page</h1>
+    <img
+      src="MyPortrait.jpg"
+      alt="MyPortrait"
+      width="200px"
+      class="center"
+    />
+    <h1 style="text-align: center;">My First Web Page</h1>
+    <h2 style="text-align: center;"><em>Fahrettin Gedik</em></h2>
+    <p>My Name is Fahrettin Gedik, I live in Switzerland and this is my website!</p>
     <h2>About Me</h2>
     <p>
-      I'm 28 years old, I work as a software developer and I live in Bern with
-      my dog Max. I like making people laugh and having fun, so i like to go to
+      I'm 46 years old, I work as a software developer and I live in Porrentruy with
+      my friend Davut. I like making people laugh and having fun, so i like to go to
       stand up comedy shows every other weekend. I love to cook, especially
       pasta dishes with selfmade tomato sauce!
     </p>
 
     <h3>My favorite Hobbies</h3>
     <ul>
-      <li>list element</li>
-      <li>another list element</li>
+      <li>Playing Basketball</li>
+      <li>Playing Football</li>
+      <li>Playing Golf</li>
+      <li>Riding Bicycle</li>
+      <li>Reading Book</li>
     </ul>
 
     <a
-      href="https://cdn.dribbble.com/users/2832452/screenshots/6833602/happydog.jpg"
+      href="https://www.google.com/url?sa=i&url=https%3A%2F%2Febird.org%2Fspecies%2Fbaleag&psig=AOvVaw24CJx7Gg62rfrOSMblJ8qz&ust=1666306522796000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNjAzNSx7foCFQAAAAAdAAAAABAE"
     >
-      Click here to see a picture of my dog Max!</a
+      Click here to see a picture of my favorite Animal!</a
     >
 
     <h3>My favorite Songs</h3>
@@ -83,7 +102,8 @@ video with controls, defined size and source (youtube-link)
     <br />
 
     <h2>Video I took on my last Holiday</h2>
-    <video src="MyVideo.mp4" width="400" controls></video>
+    <video src="https://www.youtube.com/watch?v=InymYroypxg" width="400" controls></video>
+    
 
     <h2>Take a Quiz about me!</h2>
     <label>What's my favorite Animal?</label>
@@ -109,6 +129,9 @@ video with controls, defined size and source (youtube-link)
     <textarea rows="4" cols="50"></textarea>
     <br />
     <button>Click here to send</button>
+    <footer>
+      <p>Footer</p>
+    </footer>
   </body>
 </html>
 

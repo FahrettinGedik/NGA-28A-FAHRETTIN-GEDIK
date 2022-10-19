@@ -1,0 +1,82 @@
+img {
+    border-radius: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #808080;
+  }
+  
+  h1,
+  h2,
+  em {
+    background-color: #c4d1ed;
+    font-family: Optima;
+    color: #140606;
+  }
+  
+  h3,
+  h4 {
+    background-color: #cacdd1;
+    font-family: Optima;
+    color: #140606;
+    font-size: 25px;
+  }
+  
+  ol,
+  li,
+  p,
+  a {
+    font-family: Optima;
+    color: #140606;
+    font-size: 20px;
+    background-color: #e8e6ee;
+  }
+  
+   /* Style the header */
+   header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  
+   /* Style the footer */
+   footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  .page {
+    width: 400px;
+    height: 600px;
+  
+    padding: 20px;
+    margin: 50px;
+    background-color: #e1d8f3;
+  }
+  
+  .title-page,
+  .dedication-page,
+  .content-page,
+  .book-page {
+    width: 400px;
+    height: 700px;
+  
+    padding: 20px;
+    margin: 50px;
+  }
+  
+  .light-shadow {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  }
+  
+  .rounded-lg {
+    border-radius: 16px;
+  }
+  
+  .content-list li {
+    text-decoration: underline;
+  }
