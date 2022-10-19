@@ -1,0 +1,115 @@
+<!-- 
+BASIC
+title (in head)
+different headings (h1-h6)
+paragraph tag
+break tags for formatting
+list (ordered or unordered) with multiple list elements
+anchor tag
+image tag
+button
+form: input with corresponding label
+table with header and at least two columns (= 2x td tag) 
+
+ADVANCED (own research needed)
+input fields with different types
+<select> tag with label and multiple options
+<textarea> tag with label and defined rows and columns
+video with controls, defined size and source (youtube-link)
+-->
+
+<!-- PART 1 -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Page</title>
+  </head>
+  <body>
+    <h1>Welcome to my Page</h1>
+    <img src="MyPortrait.jpg" width="400" />
+    <p>My Name is John Doe, I live in Switzerland and this is my website!</p>
+    <h2>About Me</h2>
+    <p>
+      I'm 28 years old, I work as a software developer and I live in Bern with
+      my dog Max. I like making people laugh and having fun, so i like to go to
+      stand up comedy shows every other weekend. I love to cook, especially
+      pasta dishes with selfmade tomato sauce!
+    </p>
+
+    <h3>My favorite Hobbies</h3>
+    <ul>
+      <li>list element</li>
+      <li>another list element</li>
+    </ul>
+
+    <a
+      href="https://cdn.dribbble.com/users/2832452/screenshots/6833602/happydog.jpg"
+    >
+      Click here to see a picture of my dog Max!</a
+    >
+
+    <h3>My favorite Songs</h3>
+
+    <table>
+      <thead>
+        <th>column 1 title</th>
+        <th>column 2 title</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>data row 1 column 1</td>
+          <td>data row 1 column 2</td>
+        </tr>
+        <tr>
+          <td>data row 2 column 1</td>
+          <td>data row 2 column 2</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br />
+
+    <form>
+      <label for="email">Type in your Email address to get in contact</label>
+      <br />
+      <input type="email" name="email" />
+    </form>
+    <br />
+    <button>Click here to send</button>
+
+    <!-- ADVANCED PART -->
+    <br />
+    <br />
+
+    <h2>Video I took on my last Holiday</h2>
+    <video src="MyVideo.mp4" width="400" controls></video>
+
+    <h2>Take a Quiz about me!</h2>
+    <label>What's my favorite Animal?</label>
+    <select>
+      <option>Cat</option>
+      <option>Giraffe</option>
+      <option>Dog</option>
+    </select>
+    <br />
+
+    <form>
+      <label for="birthday">When's my Birthday?</label>
+      <input type="date" name="birthday" />
+      <br />
+      <label for="color">What's my favorite Color?</label>
+      <input type="color" name="color" />
+      <br />
+      <label for="color">What's my favorite Time of the Day?</label>
+      <input type="time" name="color" />
+    </form>
+
+    <h4>Write me a message!</h4>
+    <textarea rows="4" cols="50"></textarea>
+    <br />
+    <button>Click here to send</button>
+  </body>
+</html>
+
+<!-- END PART 1 -->
