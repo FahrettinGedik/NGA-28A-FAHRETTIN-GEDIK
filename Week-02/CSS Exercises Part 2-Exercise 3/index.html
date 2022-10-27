@@ -1,16 +1,250 @@
+<!-- 
+BASIC
+title (in head)
+different headings (h1-h6)
+paragraph tag
+break tags for formatting
+list (ordered or unordered) with multiple list elements
+anchor tag
+image tag
+button
+form: input with corresponding label
+table with header and at least two columns (= 2x td tag) 
+
+ADVANCED (own research needed)
+input fields with different types
+<select> tag with label and multiple options
+<textarea> tag with label and defined rows and columns
+video with controls, defined size and source (youtube-link)
+-->
+
+<!-- PART 1 -->
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <title>Document</title>
-</head>
-<body>
+<html>
+  <head>
+    <title>My Page</title>
+    <style>
+      table, th, td {
+        border: 1px solid black;
+      }
+      </style>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+      <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h2>My Page</h2>
+      <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Contact</a></li>
+                  <li><a class="dropdown-item" href="#">Education</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Travel</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <h1 style="text-align: center;">Welcome to my Page</h1>
+    <img
+      src="MyPortrait.jpg"
+      alt="MyPortrait"
+      width="200px"
+      class="center"
+    />
+    <h1 style="text-align: center;">My First Web Page</h1>
+    <h2 style="text-align: center;"><em>Fahrettin Gedik</em></h2>
+    <p>My Name is Fahrettin Gedik, I live in Switzerland and this is my website!</p>
+    <h2>About Me</h2>
+    <p>
+      I'm 46 years old, I work as a software developer and I live in Porrentruy with
+      my friend Davut. I like making people laugh and having fun, so i like to go to
+      stand up comedy shows every other weekend. I love to cook, especially
+      pasta dishes with selfmade tomato sauce!
+    </p>
+
+    <h3>My favorite Hobbies</h3>
+    <ul>
+      <li>Playing Basketball</li>
+      <li>Playing Football</li>
+      <li>Playing Golf</li>
+      <li>Riding Bicycle</li>
+      <li>Reading Book</li>
+    </ul>
+
+    <a
+      href="https://www.google.com/url?sa=i&url=https%3A%2F%2Febird.org%2Fspecies%2Fbaleag&psig=AOvVaw24CJx7Gg62rfrOSMblJ8qz&ust=1666306522796000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNjAzNSx7foCFQAAAAAdAAAAABAE"
+    >
+      Click here to see a picture of my favorite Animal!</a
+    >
+<br><br>
+    <h3 id="one">My favorite Songs</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Number</th>
+      <th>Month</th>
+      <th>Alone</th>
+      <th>With Groups</th>
+      <th>With Groups</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Clasical Music</td>
+      <td>Pop Music</td>
+      <td>Soul Music</td>
+      <td>Jazz Music</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Rhythm and Blues Music</td>
+      <td>Rock and Roll Music</td>
+      <td>Rock Music</td>
+      <td>Country Music</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Soul Music</td>
+        <td>Dance Music</td>
+        <td>Blues Music</td>
+        <td>Soul Music</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>May</td>
+        <td>April</td>
+        <td>June</td>
+        <td>July</td>
+      </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>5</td>
+      <td>$180</td>
+      <td>$180</td>
+      <td>$180</td>
+      <td>$180</td>
+    </tr>
+  </tfoot>
+</table>
+
+    <br />
+
+    <form>
+      <label for="email">Type in your Email address to get in contact</label>
+      <br />
+      <input type="email" name="email" />
+    </form>
+    <br />
+    <button>Click here to send</button>
+
+    <!-- ADVANCED PART -->
+    <br />
+    <br />
+
+    <h2>Video I took on my last Holiday</h2>
     
+    <div id="ytplayer">
+    <section id="my-video">
+      <h3>Video I took on my last Holiday</h3>
+      <iframe
+        width="420"
+        height="315"
+        src="https://www.youtube.com/watch?v=ubL_hVPm6Oc"
+        title="Dolomites Mountain in Italy | Best Travel Destinations"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </section>
+    </div>
+    <h2>Take a Quiz about me!</h2>
+    <label>What's my favorite Animal?</label>
+    <select>
+      <option>Cat</option>
+      <option>Giraffe</option>
+      <option>Dog</option>
+    </select>
+    <br />
 
+    <form>
+      <label for="birthday">When's my Birthday?</label>
+      <input type="date" name="birthday" />
+      <br />
+      <label for="color">What's my favorite Color?</label>
+      <input type="color" name="color" />
+      <br />
+      <label for="color">What's my favorite Time of the Day?</label>
+      <input type="time" name="color" />
+    </form>
 
-
-</body>
+    <h4>Write me a message!</h4>
+    <textarea rows="4" cols="50"></textarea>
+    <br />
+    <button>Click here to send</button>
+    <footer>
+      
+      <nav class="navbar justify-content-center navbar-dark bg-dark">
+        <div >
+          
+            <div style="color: white;">Footer</div>
+          
+        </div>
+      </nav>
+    </footer>
+    <script>
+      // Load the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
+      tag.src = "https://www.youtube.com/player_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    
+      // Replace the 'ytplayer' element with an <iframe> and
+      // YouTube player after the API code downloads.
+      var player;
+      function onYouTubePlayerAPIReady() {
+        player = new YT.Player('ytplayer', {
+          height: '360',
+          width: '640',
+          videoId: 'M7lc1UVf-VE'
+        });
+      }
+    </script>
+  </body>
 </html>
+
+<!-- END PART 1 -->
