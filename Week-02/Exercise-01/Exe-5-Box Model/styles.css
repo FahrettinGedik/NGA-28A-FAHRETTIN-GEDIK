@@ -1,0 +1,12 @@
+h2{
+    color: red;
+    background-color: yellow;
+}
+
+div{
+    margin: 50px;
+    padding: 50px;
+    background-color: yellow;
+    width: 200px;
+    border: 15px solid green;
+}

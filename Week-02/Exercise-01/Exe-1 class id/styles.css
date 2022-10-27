@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: red;
+    background-color: aqua;
+}
+
+div{
+    border: 10px dashed blue;
+}
+
+.mybackground{
+    color: rebeccapurple;
+}
+
+#mysecondparagraph{
+    color: blueviolet;
+}
+
+h1{
+    color: red;
+}
+
+th{
+    background-color: aqua;
+}
+
+label{
+    border: 1px solid red;
+}
