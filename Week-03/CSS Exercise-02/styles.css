@@ -1,0 +1,38 @@
+p{
+    color: yellow;
+}
+
+.p{
+    color: green;
+}
+
+#p{
+    color: red;
+}
+
+div > p {
+    color: blue;
+}
+
+#div > p{
+    color: magenta;
+}
+
+div > #p{
+    color: orange;
+}
+
+#div > #p{
+    color: aquamarine;
+}
+
+#div p{
+    color: bisque;
+}
+
+.main > div > p{
+    color: brown;
+}
+p{
+    color: gold !important;
+}

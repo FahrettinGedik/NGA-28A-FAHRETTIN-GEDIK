@@ -1,0 +1,70 @@
+/* ahshfaskha */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1,5rem;
+    padding: 32px;
+}
+
+div{
+    display: inline-block;
+
+}
+
+p{
+    color: aqua;
+}
+
+p{
+    display: inline;
+}
+
+div{
+    position: relative;
+    background-color: aqua;
+}
+div h3{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+div{
+    position: fixed;  /*no need absolute element*/
+}
+h2{
+    position: sticky;
+    left: 0px;
+
+}
+section:hover p{
+    color: red;
+}
+p:first-child{
+    color: blue;
+}
+p:nth-child(2){
+    color: red;
+}
+
+div:not(.mysection){
+    background-color: yellow;
+}
+
+p::before{
+    content: "Hello";
+}
+
+p::after{
+    content: "Hello";
+    color: aqua;
+    
+}
+
+p{
+    color: blue;
+}
+
+p:not(.excludeme){
+    color: red;
+}
